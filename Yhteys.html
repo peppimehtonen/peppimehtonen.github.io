@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>Peppi Mehtonen</title>
+
+<div class="laatikko-otsikko">
+<h1>Peppi Mehtonen</h1>
+
+</div>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Esittely</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="Yhteys.html">Ota yhteyttä</a></li>
+        </ul>
+    </nav>
+    
+    <div class="laatikko-iso">
+<h2>Ota yhteyttä</h2>
+<form class="contact-form" action="yhteydenotto.php" method="post">
+    <label for="nimi">Nimi:</label>
+    <input type="text" id="nimi" name="nimi" required>
+
+    <label for="email">Sähköposti:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="viesti">Viesti:</label>
+    <textarea id="viesti" name="viesti" rows="4" required></textarea>
+
+    <button type="submit">Lähetä</button>
+</form>
+    </div>
+
+<footer class="footer">
+    <p>Sähköposti: <a href="peppi.mehtonen@gmail.com">peppi.mehtonen@gmail.com</a></p>
+    <p>Puhelin: <a href="tel:+358408194329">040 8194329</a></p>
+    <p>Osoite: Hämeentie 75 A5, 00550 Helsinki</p>
+</body>
+</html>

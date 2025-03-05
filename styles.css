@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#FFF8DB;
+}
+h1{
+    margin-block-end: 0rem;
+    margin-block-start: 0rem;
+
+}
+
+.laatikko-iso img {
+    width: 30%;
+    border-radius: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.laatikko-iso, .laatikko-pieni{
+    border-radius: 0.5rem;
+}
+.laatikko-iso {
+    background-color: #FFC7ED;
+    padding: 1rem;
+    margin: 1rem;
+}
+.laatikko-pieni {
+    background-color: #FFF8DB;
+    padding: 1rem;
+    margin: 1rem;
+}
+.laatikko-otsikko{
+    background-color: #FFC7ED;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+
+}
+
+nav {
+        background-color: #FFC7ED;
+        padding: 10px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+        display: block;
+        background-color: #FFC7ED;
+    }
+
+    nav ul li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 18px;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+    }
+
+    nav ul li a:hover:not(.active) {
+        text-decoration: underline;
+        background-color: #7D8ABC;
+      
+    }
+   .active{
+    background-color: #7D8ABC;
+   }
+
+    .contact-form {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+    }
+    .contact-form label {
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .contact-form button {
+        background-color: #7D8ABC;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .contact-form button:hover {
+        background-color: #304463;
+    }
+    .footer {
+        margin: 1rem;
+        background-color: #FFC7ED;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        border-radius: 0.5rem;
+    }
+  
+    .footer a {
+        color: #304463;
+        text-decoration: none;
+    }
+  
+    .footer a:hover {
+        text-decoration: underline;
+    }
