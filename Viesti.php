@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $vastaanottaja = "peppi.mehtonen@gmail.com";
     $aihe = "Uusi yhteydenotto verkkosivulta";
     $viestiSisalto = "Nimi: $nimi\n";
-    $viestiSisalto .= "Sähköposti: $sahkoposti\n";
+    $viestiSisalto .= "Email: $email\n";
     $viestiSisalto .= "Viesti:\n$viesti";
 
     $headers = "From: $sahkoposti";
