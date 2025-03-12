@@ -1,4 +1,4 @@
-<?php
+l<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nimi = htmlspecialchars($_POST["nimi"]);
     $sahkoposti = htmlspecialchars($_POST["email"]);
