@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nimi = htmlspecialchars($_POST["name"]);
+    $nimi = htmlspecialchars($_POST["nimi"]);
     $sahkoposti = htmlspecialchars($_POST["email"]);
-    $viesti = htmlspecialchars($_POST["message"]);
+    $viesti = htmlspecialchars($_POST["viesti"]);
 
     $vastaanottaja = "peppi.mehtonen@gmail.com";
     $aihe = "Uusi yhteydenotto verkkosivulta";
